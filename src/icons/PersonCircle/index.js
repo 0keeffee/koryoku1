@@ -1,0 +1,1 @@
+export { PersonCircle } from "./PersonCircle";

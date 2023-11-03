@@ -1,0 +1,65 @@
+.filled-medium-filled {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: var(--light-drop-shadow);
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 6px 24px;
+  position: relative;
+}
+
+.filled-medium-filled .button {
+  font-family: var(--btn-text-font-family);
+  font-size: var(--btn-text-font-size);
+  font-style: var(--btn-text-font-style);
+  font-weight: var(--btn-text-font-weight);
+  letter-spacing: var(--btn-text-letter-spacing);
+  line-height: var(--btn-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.filled-medium-filled.default {
+  background-color: var(--primary-color);
+}
+
+.filled-medium-filled.focused {
+  background-color: var(--primary-color-pressed);
+}
+
+.filled-medium-filled.pressed {
+  background-color: var(--primary-color-pressed);
+}
+
+.filled-medium-filled.hovered {
+  background-color: var(--primary-color-hovered);
+}
+
+.filled-medium-filled.disabled {
+  background-color: var(--light-gray-1);
+}
+
+.filled-medium-filled.default .button {
+  color: var(--light-text-color);
+}
+
+.filled-medium-filled.focused .button {
+  color: var(--light-text-color);
+}
+
+.filled-medium-filled.pressed .button {
+  color: var(--light-text-color);
+  text-align: center;
+}
+
+.filled-medium-filled.hovered .button {
+  color: var(--light-text-color);
+  text-align: center;
+}
+
+.filled-medium-filled.disabled .button {
+  color: var(--muted-color);
+}

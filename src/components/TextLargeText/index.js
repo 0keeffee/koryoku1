@@ -1,0 +1,1 @@
+export { TextLargeText } from "./TextLargeText";

@@ -1,0 +1,1 @@
+export { FilledMediumFilled } from "./FilledMediumFilled";

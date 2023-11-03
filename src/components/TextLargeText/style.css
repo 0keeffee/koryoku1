@@ -1,0 +1,69 @@
+.text-large-text {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 32px;
+  position: relative;
+}
+
+.text-large-text .div {
+  font-family: var(--btn-text-font-family);
+  font-size: var(--btn-text-font-size);
+  font-style: var(--btn-text-font-style);
+  font-weight: var(--btn-text-font-weight);
+  letter-spacing: var(--btn-text-letter-spacing);
+  line-height: var(--btn-text-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-large-text.states-0-focused {
+  border-radius: 4px;
+}
+
+.text-large-text.states-0-pressed {
+  border-radius: 4px;
+}
+
+.text-large-text.states-0-hovered {
+  border-radius: 4px;
+}
+
+.text-large-text.states-0-active {
+  border-radius: 4px;
+}
+
+.text-large-text.states-0-default .div {
+  color: var(--text-color);
+  margin-top: -1px;
+}
+
+.text-large-text.states-0-focused .div {
+  color: var(--primary-color-pressed);
+  margin-top: -2px;
+}
+
+.text-large-text.states-0-pressed .div {
+  color: var(--primary-color-pressed);
+  margin-top: -2px;
+  text-align: center;
+}
+
+.text-large-text.states-0-hovered .div {
+  color: var(--primary-color-hovered);
+  margin-top: -2px;
+  text-align: center;
+}
+
+.text-large-text.states-0-disabled .div {
+  color: var(--muted-color);
+  margin-top: -1px;
+}
+
+.text-large-text.states-0-active .div {
+  color: var(--primary-color);
+  margin-top: -2px;
+  text-align: center;
+}
